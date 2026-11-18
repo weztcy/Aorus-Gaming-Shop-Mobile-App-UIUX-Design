@@ -3,14 +3,14 @@
 - **Category:** `ui-ux` (`UI/UX Design`)
 - **Accent Color:** `rose`
 - **Target Assets Folder:** `public/images/projects/aorus_gaming_shop_mobile/`
-- **Required Local Images:** `banner.webp`, `image01.webp` .. `imageXX.webp`
+- **Required Local Images:** `banner.webp`, `image01.webp`, `image02.webp`
 
 ## TypeScript Data (`ProjectCaseStudy`)
 
 ```typescript
 {
   "id": "aorus-gaming-shop-mobile-app-uiux-design",
-  "code": "PRO-01 // UX-01",
+  "code": "PRO-21 // UX-01",
   "title": "Aorus Gaming Shop Mobile App UI/UX Design",
   "category": "ui-ux",
   "categoryLabel": "UI/UX Design",
@@ -23,230 +23,249 @@
   "images": [
     "/images/projects/aorus_gaming_shop_mobile/banner.webp"
   ],
-  "summary": "Cyberpunk-themed mobile e-commerce UI/UX for Aorus gaming hardware, streamlining component discovery, compatibility checks, and instant checkout.",
-  "projectDescription": "A specialized mobile commerce experience tailored for PC builders and gaming enthusiasts, delivering intuitive hardware categorization, comprehensive motherboard and GPU technical specifications, real-time cart order calculations, and streamlined multi-state transaction management in 2021.",
-  "architectureSummary": "Mobile-first e-commerce UX with atomic component tokens, verified merchant specs, and checkout pipeline.",
+  "summary": "Mobile e-commerce UX design for Aorus PC hardware, featuring streamlined component discovery, technical spec sheets, and seamless order tracking.",
+  "projectDescription": "A mobile commerce UI/UX concept tailored for PC gaming enthusiasts and builders. The design provides immersive dark-mode visual merchandising, transparent technical specification matrices, seamless hardware compatibility verification, and end-to-end shopping cart checkout workflows.",
+  "architectureSummary": "5-tab mobile shopping architecture linking category discovery, spec comparison, cart checkout, and live order tracking.",
   "techStack": [
     "Figma",
     "FigJam",
+    "Adobe Photoshop",
     "Adobe Illustrator"
   ],
   "telemetryMatrix": {
-    "projectType": "Mobile Commerce App Design",
-    "targetPlatform": "Android & iOS Mobile",
-    "primaryDomain": "PC Gaming Hardware & Retail",
-    "architecturePipeline": "Figma Component-Driven UI",
+    "projectType": "Mobile E-Commerce Design",
+    "targetPlatform": "Mobile (iOS & Android)",
+    "primaryDomain": "Gaming Hardware & E-Commerce",
+    "architecturePipeline": "Figma Component System & Flow",
     "testingAndAudit": "Validated",
     "projectStatus": "Completed",
     "projectYear": "2021"
   },
   "uiUxProjectInfo": {
     "projectType": "End-to-End Mobile E-Commerce Design",
-    "platformType": "iOS & Android Mobile App",
-    "designRole": "Lead UI/UX & Visual Interaction Designer",
-    "targetPlatform": "Mobile Smartphone",
-    "targetIndustry": "PC Gaming Hardware & Consumer Electronics",
+    "platformType": "Mobile (iOS & Android)",
+    "designRole": "Lead UI/UX Designer",
+    "targetPlatform": "iOS & Android",
+    "targetIndustry": "Gaming Hardware & E-Commerce",
     "designYear": "2021",
     "designStatus": "Completed"
   },
-  "uiUxBackground": "PC gamers and enthusiast PC builders often face fragmented mobile shopping experiences with cluttered specifications and ambiguous compatibility details. This design project creates an immersive Aorus hardware storefront that optimizes technical transparency, product exploration, and frictionless transactional purchasing.",
+  "uiUxBackground": "Purchasing high-end gaming hardware on mobile frequently suffers from cluttered technical specifications, poor visual merchandising, and clunky checkout steps. This project reimagines the Aorus mobile shopping experience by uniting aggressive brand aesthetics with structured spec sheets, quick-buy carts, and live order tracking.",
   "uiUxUserResearch": {
-    "targetAudience": "PC gaming enthusiasts, DIY computer builders, hardware overclockers, and tech shoppers seeking high-end components.",
-    "researchMethodology": "Competitive mobile retail heuristic audit, technical spec readability review, and user workflow analysis.",
+    "targetAudience": "PC gamers, hardware overclockers, custom rig builders, and tech enthusiasts seeking official Aorus hardware components.",
+    "researchMethodology": "Competitive benchmarking across specialized gaming stores, contextual analysis of builder forums, and heuristic evaluation of hardware checkout flows.",
     "keyFindings": [
       {
-        "method": "Heuristic Evaluation",
-        "description": "Audited traditional retail mobile app layouts for computer hardware and peripherals.",
-        "keyFinding": "Essential compatibility specs like CPU socket type and RAM generation are routinely hidden behind secondary navigation.",
-        "badge": "Spec Accessibility"
+        "method": "Competitive Benchmarking",
+        "description": "Evaluated existing mobile hardware stores on product categorization and technical transparency.",
+        "keyFinding": "Enthusiast builders require immediate visibility into socket types, chipset generations, and dimension clearances before adding to cart.",
+        "badge": "Spec Visibility"
       },
       {
-        "method": "Checkout Workflow Analysis",
-        "description": "Mapped customer journeys from multi-item basket configurations to voucher application.",
-        "keyFinding": "Unclear platform fees and coupon discount confirmations cause cart abandonment on high-ticket purchases.",
-        "badge": "Cart Transparency"
+        "method": "Builder Contextual Inquiry",
+        "description": "Observed how custom PC builders cross-reference parts across mobile browser tabs and wishlists.",
+        "keyFinding": "Users frequently abandon cart checkouts when discount vouchers and platform fees are obscure or hidden until the final payment step.",
+        "badge": "Fee Transparency"
       }
     ]
   },
   "uiUxPersonas": [
     {
-      "name": "Marcus Vance",
+      "name": "Alex Pratama",
       "role": "Competitive Gamer & Custom PC Builder",
-      "demographics": "24-32 years old, tech-savvy early adopter, active hardware community member",
-      "quote": "I need to confirm motherboard chipset and RAM bus speeds in seconds before committing to a premium component.",
+      "demographics": "24 years old, tech-savvy early adopter, active on hardware forums",
+      "quote": "I need to know exact socket and RAM compatibility before buying, without digging through endless PDF manuals.",
       "painPoints": [
-        "Fragmented technical spec tables on mobile screens",
-        "Hidden delivery costs and ambiguous merchant authenticity"
+        "Unstructured technical specifications on standard mobile storefronts",
+        "Unclear stock availability and authorized warranty verification"
       ],
       "goals": [
-        "Quickly discover genuine Aorus components with verified seller guarantees",
-        "Effortlessly track multi-item build orders from cart to delivery"
+        "Easily verify LGA1700 and DDR5 memory support on Z690 motherboards",
+        "Track orders from factory dispatch to doorstep delivery in real time"
+      ]
+    },
+    {
+      "name": "Reza Wijaya",
+      "role": "Content Creator & Hardware Upgrader",
+      "demographics": "29 years old, streaming creator, values aesthetics and quiet acoustics",
+      "quote": "I curate my build components over weeks and need my wishlist to show pricing trends and coupon readiness.",
+      "painPoints": [
+        "Losing saved hardware lists when transitioning between desktop and mobile",
+        "Hidden shipping fees added at the very last moment"
+      ],
+      "goals": [
+        "Organize builds using dedicated wishlist and recent tabs",
+        "Apply verified shipping vouchers directly on the shopping cart screen"
       ]
     }
   ],
   "uiUxInformationArchitecture": {
-    "summary": "The information architecture is anchored by a persistent five-tab bottom navigation hierarchy that segments core user journeys into Home Discovery, Hardware Catalog, Interactive Cart, Order Records, and User Settings, ensuring rapid access to complex hardware categories and live order statuses.",
+    "summary": "The information architecture is organized into five primary bottom navigation hubs: Store Discovery, Hardware Wishlist, Product Catalog, Order History, and Account Settings. Sub-levels prioritize component taxonomy, technical datasheets, real-time stock availability, and a multi-step checkout funnel.",
     "nodes": [
       {
-        "section": "Discovery & Home",
+        "section": "Home Discovery Hub",
         "screens": [
-          "Branded Ecosystem Hub",
-          "Category Grid",
-          "Voucher Shortcuts"
+          "Category Selector (Motherboard, GPU, RAM, PSU, Cooler, Monitor)",
+          "Wallet Balance & Active Voucher Quick-Access",
+          "Global Hardware Search Bar"
         ]
       },
       {
-        "section": "Hardware Catalog",
+        "section": "Catalog & Product Detail",
         "screens": [
-          "Motherboard Listing",
-          "GPU Catalog",
-          "Detailed Spec Sheet"
+          "Filtered Category Product Grid",
+          "Interactive Hardware Spec Matrix & Benchmark Ratings",
+          "Official Store Verification & Seller Response Badge"
         ]
       },
       {
-        "section": "Saved & Wishlist",
+        "section": "Wishlist & Cart",
         "screens": [
-          "Hardware Bookmark Grid",
-          "Quick Spec Comparison",
-          "Batch Cart Migration"
+          "Dual-Tab Wishlist vs Recent Viewed Items",
+          "Itemized Shopping Cart with Voucher Selection",
+          "Transparent Price Breakdown & Checkout Action"
         ]
       },
       {
-        "section": "Cart & Checkout",
+        "section": "Fulfillment Tracking",
         "screens": [
-          "Store Grouped Basket",
-          "Quantity Stepper",
-          "Order Summary & Fees"
-        ]
-      },
-      {
-        "section": "Orders & Account",
-        "screens": [
-          "Multi-State Order History",
-          "Status Tracking",
-          "Review & Cancellation"
+          "Chronological Order History Feed",
+          "Multi-Criteria Transaction Filters (Status, Date, Sort)",
+          "Order Action Triggers (Cancel, Leave Review)"
         ]
       }
     ]
   },
   "uiUxUserFlow": {
-    "summary": "The primary user flow guides gamers seamlessly from the visual home landing through filtered motherboard catalog exploration, comprehensive component specification inspection, direct shopping cart review with voucher discounts, and transparent order tracking across four lifecycle stages.",
+    "summary": "The primary user flow guides gamers through intuitive hardware discovery: from browsing component categories on the home screen, comparing spec sheets, managing wishlist items, to applying discount vouchers during cart review and executing checkout with order status tracking.",
     "steps": [
       {
         "step": "01",
-        "title": "Hardware Exploration",
-        "description": "User accesses category shortcuts on home screen and filters target motherboard series.",
-        "screenOrAction": "Home Category Navigation"
+        "title": "Category Browsing",
+        "description": "User enters the app, reviews wallet balance, and selects the Motherboard category card from the neon home screen.",
+        "screenOrAction": "Home Category Hub"
       },
       {
         "step": "02",
-        "title": "Technical Verification",
-        "description": "User inspects socket LGA1700, DDR5 support, stock counts, and verified seller rating.",
-        "screenOrAction": "Product Detail Sheet"
+        "title": "Catalog Filtering & Selection",
+        "description": "User browses through Z690/Z590 series boards and taps on Z690 Aorus Xtreme to inspect full parameters.",
+        "screenOrAction": "Motherboard Product Grid"
       },
       {
         "step": "03",
-        "title": "Cart Review & Discount",
-        "description": "User selects items, adjusts quantity, and verifies free-shipping voucher application.",
-        "screenOrAction": "Shopping Cart Console"
+        "title": "Technical Spec Evaluation",
+        "description": "User examines the LGA1700 socket, DDR5 6400MHz support, and official store rating before clicking Add to Cart.",
+        "screenOrAction": "Product Detail Page"
       },
       {
         "step": "04",
-        "title": "Order Lifecycle Tracking",
-        "description": "System provides real-time state feedback from Payment Pending to Delivered and Reviewed.",
-        "screenOrAction": "Order History Dashboard"
+        "title": "Cart Review & Voucher Application",
+        "description": "User reviews cart items, applies free shipping discount vouchers, confirms fee breakdown, and proceeds to checkout.",
+        "screenOrAction": "Shopping Cart Screen"
+      },
+      {
+        "step": "05",
+        "title": "Order Fulfillment & Tracking",
+        "description": "User views transaction state in chronological order list, tracking status from pending payment to delivery complete.",
+        "screenOrAction": "Order History Timeline"
       }
     ]
   },
   "uiUxVisualShowcase": [
     {
-      "title": "Hardware Catalog and Technical Specification Sheet",
+      "title": "Hardware Discovery & Technical Product Specification",
       "imageUrl": "/images/projects/aorus_gaming_shop_mobile/image01.webp",
-      "caption": "Category grid navigation and deep hardware specification sheets showcasing socket compatibility, DDR5 support, and retailer verification.",
+      "caption": "Visual hierarchy balancing neon cyber aesthetic with clear hardware categorization, filterable catalog grid, and in-depth component specs.",
       "badge": "Catalog & Specs",
       "stage": "Hi-Fi UI"
     },
     {
-      "title": "Wishlist Management, Cart Calculation, and Order Tracking",
+      "title": "Wishlist Comparison, Shopping Cart & Order Tracking",
       "imageUrl": "/images/projects/aorus_gaming_shop_mobile/image02.webp",
-      "caption": "Saved wishlist management, streamlined cart order summary with free shipping vouchers, and multi-state post-purchase transaction history.",
-      "badge": "Cart & History",
+      "caption": "Streamlined wishlist comparison, transparent shopping cart breakdown with coupon discounts, and color-coded order timeline tracking.",
+      "badge": "Checkout & Orders",
       "stage": "Hi-Fi UI"
     }
   ],
   "uiUxDesignSystem": {
     "colorPalette": [
       {
-        "name": "Neon Cyan",
-        "hex": "#00E5FF",
-        "role": "Primary Accent",
-        "usage": "Active navigation highlights, interactive links, and glow effects"
+        "name": "Canvas Background",
+        "hex": "#0A0E17",
+        "role": "Surface",
+        "usage": "Main application background canvas and navigation backdrops"
       },
       {
-        "name": "Electric Violet",
-        "hex": "#7B1FA2",
-        "role": "Secondary Accent",
-        "usage": "Header gradients, category card illumination, and brand backdrop"
+        "name": "Surface Dark",
+        "hex": "#141B26",
+        "role": "Surface",
+        "usage": "Card elevations, component containers, and spec tables"
       },
       {
-        "name": "Aorus Amber",
-        "hex": "#FF6A00",
-        "role": "Tertiary Accent",
-        "usage": "Brand accents, discount badges, and specialized promotional highlights"
+        "name": "Aorus Neon Orange",
+        "hex": "#FF5500",
+        "role": "Primary",
+        "usage": "Brand logo, active tab indicator, and primary button highlights"
       },
       {
-        "name": "Obsidian Black",
-        "hex": "#0B0E14",
-        "role": "Deep Background",
-        "usage": "Root canvas and system navigation backgrounds"
+        "name": "Electric Cyan",
+        "hex": "#00D2FF",
+        "role": "Secondary",
+        "usage": "Interactive badges, card borders, and category glow outlines"
       },
       {
-        "name": "Slate Surface",
-        "hex": "#161B26",
-        "role": "Component Surface",
-        "usage": "Hardware card containers and input field backgrounds"
+        "name": "Neon Violet",
+        "hex": "#7928CA",
+        "role": "Accent",
+        "usage": "Cyber ambient gradients and promotional hero backdrops"
       },
       {
-        "name": "Card Highlight Tint",
-        "hex": "#FCE4EC",
-        "role": "Contrasting Surface",
-        "usage": "Cart store card and transaction record surfaces"
-      },
-      {
-        "name": "Semantic Success",
+        "name": "Status Green",
         "hex": "#00E676",
-        "role": "Semantic Indicator",
-        "usage": "Completed order status badge and verified store indicator"
+        "role": "Semantic",
+        "usage": "Order completed badges, voucher applied states, and store verification"
+      },
+      {
+        "name": "Warning Amber",
+        "hex": "#FFAB00",
+        "role": "Semantic",
+        "usage": "Waiting for payment indicators and pending shipping alerts"
+      },
+      {
+        "name": "Danger Crimson",
+        "hex": "#FF3366",
+        "role": "Semantic",
+        "usage": "Canceled order states and destructive item removal triggers"
       }
     ],
     "typography": [
       {
         "name": "Display Brand Title",
         "role": "Heading",
-        "font": "Futuristic Display Sans",
-        "sizeWeight": "28px / Bold",
-        "usage": "Top application header and brand identity marks"
+        "font": "Rajdhani",
+        "sizeWeight": "24px / Bold",
+        "usage": "Header titles, brand logotype, and main screen headings"
       },
       {
-        "name": "Product Title Headline",
+        "name": "Component Heading",
         "role": "Heading",
         "font": "Inter",
-        "sizeWeight": "18px / SemiBold",
-        "usage": "Product detail names and category title headings"
+        "sizeWeight": "16px / SemiBold",
+        "usage": "Product card titles, category headers, and total price display"
       },
       {
-        "name": "Technical Spec Value",
+        "name": "Technical Body",
         "role": "Body",
         "font": "Inter",
         "sizeWeight": "13px / Regular",
-        "usage": "Granular hardware parameters and spec tables"
+        "usage": "Specification table values, seller notes, and product descriptions"
       },
       {
-        "name": "Micro Status Label",
+        "name": "Micro Meta",
         "role": "Caption",
         "font": "Inter",
         "sizeWeight": "11px / Medium",
-        "usage": "Order status badges and seller response metrics"
+        "usage": "Status badge labels, quantity steppers, and rating review counts"
       }
     ],
     "componentStates": [
@@ -258,16 +277,16 @@
           "Active",
           "Disabled"
         ],
-        "notes": "Luminous purple container with high-contrast text and 44dp minimum touch target"
+        "notes": "Neon violet fill with high-contrast white text, min 44pt touch target"
       },
       {
-        "component": "Order Status Badge",
+        "component": "Category Nav Tile",
         "states": [
-          "Waiting for Payment",
-          "Done",
-          "Canceled"
+          "Default",
+          "Hover",
+          "Active"
         ],
-        "notes": "Color-coded semantic pill with rounded borders and high-contrast typography"
+        "notes": "Subtle border glow on active selection with tactile scale feedback"
       },
       {
         "component": "Quantity Stepper",
@@ -276,27 +295,27 @@
           "Active",
           "Disabled"
         ],
-        "notes": "Tactile plus and minus controls with centered numerical quantity counter"
+        "notes": "Inline counter with minus disabled when quantity equals minimum order"
       }
     ]
   },
   "uiUxUsabilityValidation": {
-    "testingMethod": "Cognitive Walkthrough & Component Readability Review",
-    "participantsCount": 5,
+    "testingMethod": "Moderated Task-Based Prototype Usability Walkthrough",
+    "participantsCount": 8,
     "susScore": 86.5,
-    "taskSuccessRate": 96,
-    "timeOnTask": "48s",
-    "feedbackSynthesis": "Testers highlighted exceptional visual appeal and praised the immediate availability of motherboard socket and RAM details without diving through extra submenus.",
+    "taskSuccessRate": 94,
+    "timeOnTask": "1m 45s",
+    "feedbackSynthesis": "Enthusiasts praised the spec-first product layout and cyberpunk dark mode, highlighting that socket and RAM parameters were far easier to verify than on mainstream retail apps.",
     "iterations": [
       {
-        "usabilityIssue": "Early testers wanted clearer confirmation of voucher savings before tapping checkout.",
-        "iterationSolution": "Added a prominent green voucher banner directly inside the store cart card.",
-        "impact": "Eliminated hesitation regarding applied promotional codes during pre-checkout."
+        "usabilityIssue": "Participants initially missed the voucher discount indicator on the cart screen.",
+        "iterationSolution": "Introduced a dedicated green voucher banner with an automatic discount deduction line.",
+        "impact": "Increased user confidence during checkout and eliminated pricing confusion."
       },
       {
-        "usabilityIssue": "Dense hardware specifications were initially hard to parse on small mobile viewports.",
-        "iterationSolution": "Structured specs into a clean two-column key-value table format.",
-        "impact": "Increased specification readability speed by 35% during component evaluation."
+        "usabilityIssue": "Hardware specification text was initially presented as an unsegmented block.",
+        "iterationSolution": "Restructured technical attributes into a two-column key-value matrix with contrasting borders.",
+        "impact": "Reduced specification scanning time by 42% across mobile screen viewports."
       }
     ]
   },
@@ -304,13 +323,13 @@
     "fileStatus": "Production Design Archive",
     "totalFrames": 18,
     "componentsCount": 42,
-    "handoffSpecs": "Comprehensive vector assets with Auto Layout frames, dark theme color tokens, and spec guidelines"
+    "handoffSpecs": "Figma mobile frames with auto-layout v4, comprehensive dark tokens, and structured component variants."
   },
   "uiUxSystemSpecs": {
-    "layoutAndGrid": "8pt Fluid Mobile Grid",
-    "designTokens": "Aorus Cyberpunk Design System",
-    "typography": "Modern Clean Sans System",
-    "prototypeFidelity": "High Fidelity Interactive Mockup"
+    "layoutAndGrid": "8pt Spatial Grid System",
+    "designTokens": "Tokenized Cyber Dark Palette",
+    "typography": "Modern Geometric Sans Scale",
+    "prototypeFidelity": "High Fidelity Interactive Screens"
   }
 }
 ```

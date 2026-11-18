@@ -15,103 +15,187 @@
 
 ## Project Overview
 
-Aorus Gaming Shop Mobile App is a dedicated mobile commerce user interface and user experience design concept tailored specifically for PC gaming enthusiasts and custom computer builders. The project centers on the premium Aorus hardware ecosystem by Gigabyte, establishing a seamless digital retail environment where users can explore high-performance PC components, inspect intricate hardware specifications, manage wishlists, and complete transparent checkout transactions within an immersive dark cyberpunk aesthetic.
+Aorus Gaming Shop Mobile App is a specialized mobile e-commerce interface concept designed specifically for PC gaming enthusiasts, custom system builders, and hardware power users. The application delivers an immersive, brand-aligned shopping experience that simplifies the discovery, specification evaluation, and purchase of premium gaming components—ranging from flagship motherboards and graphics cards to liquid cooling solutions and high-refresh-rate displays. By combining a futuristic cyber-dark aesthetic with structured technical datasheets and streamlined checkout flows, the interface bridges the gap between intricate hardware parameters and effortless mobile commerce.
 
 ## Problem Statement & Objectives
 
-PC builders and gaming enthusiasts often struggle with standard e-commerce mobile applications that treat technical hardware like generic retail commodities. Standard mobile apps frequently bury critical hardware compatibility details, obscure socket and memory generations, clutter interfaces with irrelevant recommendations, and introduce friction into multi-item purchase workflows.
+Shopping for complex PC hardware on mainstream mobile e-commerce platforms often presents frustrating friction points for enthusiasts. Dense component specifications are frequently buried in unformatted plain text, compatibility parameters are ambiguous, and generic storefront layouts fail to convey the premium performance identity of high-end hardware.
 
-- Establish an intuitive visual hierarchy that presents complex PC hardware specifications (such as LGA sockets, DDR5 frequencies, and PCIe generations) clearly on compact mobile displays.
-- Design an engaging, branded shopping environment reflecting the futuristic, high-performance identity of the Aorus gaming ecosystem.
-- Streamline the end-to-end buying journey from component discovery and category filtering to cart configuration, discount voucher application, and post-purchase tracking.
-- Provide accessible micro-interactions and explicit transaction statuses that build buyer confidence when purchasing high-value computer hardware.
+- **Clarify Hardware Specifications**: Structure dense technical attributes (socket types, chipset models, memory speeds, dimensions) into standardized, scannable data matrices.
+- **Elevate Brand Aesthetics**: Create an authentic dark-mode visual language reflecting the neon-cyber and RGB ethos of the Aorus gaming ecosystem.
+- **Streamline Purchase Workflows**: Minimize checkout barriers through persistent wallet counters, direct coupon redemptions, and clear order timeline tracking.
+- **Facilitate Component Comparison**: Provide wishlist and side-by-side spec evaluation tools directly accessible from mobile screen viewports.
 
 ## Project Type & Design Approach
 
-The project is structured around an end-to-end mobile user experience and user interface design approach, employing user-centered design methodologies to align technical data density with fluid mobile ergonomics.
+This project is an end-to-end mobile user interface and user experience design that employs User-Centered Design (UCD) principles tailored to the high-involvement domain of computer hardware procurement.
 
 | Attribute | Description |
-| --- | --- |
-| Project Type | Mobile App Design |
-| Supporting Discipline | Visual UI Design & Interaction Design |
-| Design Approach | User-Centered Design (UCD) with Atomic Component Architecture |
-| Target Platform | Mobile (Android & iOS) |
-| Primary Tool | Figma |
-| Main Deliverable | High-Fidelity UI Screens & Component Mockups |
+|---|---|
+| **Project Type** | Mobile E-Commerce Application Design |
+| **Supporting Discipline** | Visual UI Design & Design System Architecture |
+| **Design Approach** | User-Centered Design (UCD) & Spec-First Information Architecture |
+| **Target Platform** | Mobile (iOS & Android) |
+| **Primary Tool** | Figma |
+| **Main Deliverable** | High-Fidelity UI Screens & Interactive Mockups |
 
 ## Target Audience & User Needs
 
-The design addresses two primary consumer groups within the gaming and personal computing industry: passionate PC gaming enthusiasts seeking flagship hardware upgrades, and independent PC builders requiring granular technical compatibility validation.
+The platform is designed for individuals with varying degrees of hardware expertise who demand accuracy and efficiency during mobile component transactions:
 
-- Need for rapid access to categorized hardware families including Motherboards, Graphics Cards, High-Speed RAM, Power Supplies, AIO Liquid Coolers, and Gaming Displays.
-- Requirement for transparent technical parameter tables detailing CPU socket architecture, memory bus speeds, form factors, and display interface standards.
-- Expectation of upfront cost transparency with real-time subtotal breakdowns, voucher discounts, and explicit delivery fee calculations.
-- Demand for a unified transaction management interface tracking orders across pending payment, fulfillment, and post-delivery review stages.
+- **PC Gamers & Modders**: Require quick visual confirmation of form factors, RGB aesthetics, and flagship cooling capabilities.
+- **Custom System Builders**: Need immediate verification of socket compatibility (e.g., LGA1700), chipset generations (Z690/Z590), and DDR5 memory headroom.
+- **Esports Competitors & Streamers**: Seek ultra-high refresh rate displays, high-wattage power delivery units, and silent liquid cooling solutions.
+- **Hardware Collectors & Upgraders**: Demand real-time stock notifications, wishlist price tracking, and order fulfillment transparency.
+
+## User Personas & Journey Mapping
+
+To anchor interface decisions around real behavioral patterns, target user archetypes and end-to-end purchasing pathways were mapped:
+
+| Persona | Role / Segment | Core Goals | Key Frustrations | Design Intervention |
+|---|---|---|---|---|
+| **Alex Pratama** (24) | Competitive Gamer & Builder | Secure flagship GPU/motherboard at official MSRP with verified specs | Incomplete spec tables, uncertainty regarding DDR5 compatibility | Dedicated structured specification cards and official store verification |
+| **Reza Wijaya** (29) | Tech Enthusiast & Content Creator | Track order status and manage multiple build wishlists | Fragmented cart breakdowns and unclear shipping tracking | Grouped wishlist comparison chips and color-coded status badges |
+
+```mermaid
+flowchart LR
+    A["Discovery\n(Home Categories)"] --> B["Evaluation\n(Spec Matrix)"]
+    B --> C["Wishlist\n(Bookmark & Compare)"]
+    C --> D["Cart & Checkout\n(Vouchers & Pricing)"]
+    D --> E["Order Tracking\n(Real-time Status)"]
+```
 
 ## Design Scope & Deliverables
 
-The scope of work encompasses the foundational user journeys of a specialized hardware storefront, delivered as high-fidelity vector mockups and structured interface components.
+The design scope encompasses core user journeys across the mobile shopping lifecycle, from initial hardware discovery through checkout and fulfillment verification.
 
 | Deliverable | Description | Status / Location |
-| --- | --- | --- |
-| High-Fidelity Home Screen | Category hub featuring wallet balance, voucher access, search bar, and 2x3 hardware category grid | Completed / [screenshot/banner.webp](screenshot/banner.webp) |
-| Category Catalog Grid | Subcategory hardware listing displaying motherboard series, pricing in IDR, and direct add-to-cart triggers | Completed / [screenshot/image1.webp](screenshot/image1.webp) |
-| Technical Product Details | Deep hardware specification sheet detailing LGA1700 socket, DDR5 6400 MHz support, stock levels, and verified store profile | Completed / [screenshot/image1.webp](screenshot/image1.webp) |
-| Saved Items & Wishlist | Curated hardware collection view with spec summaries, edit capabilities, and direct cart migration | Completed / [screenshot/image2.webp](screenshot/image2.webp) |
-| Cart & Pre-Checkout Sheet | Shopping cart summary with store verification, quantity stepper, free-shipping voucher application, and total order breakdown | Completed / [screenshot/image2.webp](screenshot/image2.webp) |
-| Order History Dashboard | Filterable transaction log tracking multi-state order progress including Waiting for Payment, Done, and Canceled | Completed / [screenshot/image2.webp](screenshot/image2.webp) |
+|---|---|---|
+| **Discovery & Home Hub** | Category navigation tiles, wallet balance, search bar, and hero branding | Completed (`screenshot/image1.webp`) |
+| **Catalog & Product Grid** | Filterable hardware listings with thumbnail previews, pricing, and fast add-to-cart | Completed (`screenshot/image1.webp`) |
+| **Product Detail Page (PDP)** | Interactive product showcase, rating breakdown, merchant badge, and spec sheet | Completed (`screenshot/image1.webp`) |
+| **Wishlist & Comparison View** | Dual-tab view (`Recent` vs `Wishlist`) with specification highlights and actions | Completed (`screenshot/image2.webp`) |
+| **Shopping Cart & Checkout** | Itemized bill, voucher application indicator, fee breakdown, and primary checkout CTA | Completed (`screenshot/image2.webp`) |
+| **Order History Tracker** | Chronological transaction feed with filter pills and color-coded order states | Completed (`screenshot/image2.webp`) |
+
+## Information Architecture & Sitemap
+
+The application architecture organizes extensive hardware catalogs into an accessible 5-tab bottom navigation structure, prioritizing high-frequency actions within thumb-zone accessibility.
+
+```mermaid
+flowchart TD
+    App["Aorus Mobile App"]
+    App --> Tab1["1. Home / Store"]
+    App --> Tab2["2. Wishlist & Saved"]
+    App --> Tab3["3. Product Catalog"]
+    App --> Tab4["4. Orders & History"]
+    App --> Tab5["5. Profile & Settings"]
+
+    Tab1 --> Cat["Hardware Categories\n(Motherboard, GPU, RAM, PSU, Cooler, Monitor)"]
+    Cat --> PDP["Product Detail Page\n(Specs, Reviews, Stock, Store Badge)"]
+    PDP --> Cart["Shopping Cart & Checkout\n(Voucher, Fee Breakdown, Payment)"]
+
+    Tab2 --> RecentTab["Recent Viewed Items"]
+    Tab2 --> WishlistTab["Saved Hardware Wishlist"]
+
+    Tab4 --> OrderList["Order Timeline\n(Waiting for Payment, Done, Canceled)"]
+    OrderList --> ReviewAction["Order Actions\n(Leave Review, Cancel Order)"]
+```
+
+## Design System & Component Library
+
+A cohesive component ecosystem was constructed to ensure visual uniformity across disparate hardware categories and interface densities.
+
+| Component / Style | Purpose & Specifications | Reference |
+|---|---|---|
+| **Cyber-Neon Color Tokens** | Deep dark canvas (`#0A0E17`) with Aorus Orange (`#FF5500`) and Neon Cyan (`#00D2FF`) accents | Visual UI Foundation |
+| **Hardware Spec Cards** | Two-column structured key-value table for technical attributes (socket, chipset, RAM) | Product Detail View |
+| **Category Nav Tiles** | Framed image containers with high-contrast typography and glow hover states | Home Screen Hub |
+| **Status Tag Badges** | Rounded contextual pills: Warning Yellow (Pending), Emerald Green (Done), Crimson Red (Canceled) | Order Management Feed |
+| **Quantity Stepper** | Accessible inline counter controls (`- 1 +`) for cart quantity adjustments | Shopping Cart |
+
+## Design Tokens & Asset Library
+
+Structured design tokens maintain contrast ratios, visual hierarchy, and developer handoff consistency:
+
+| Token Category | Token Name | Value | Purpose |
+|---|---|---|---|
+| **Color** | `color-bg-canvas` | `#0A0E17` | Base application background |
+| **Color** | `color-bg-surface` | `#141B26` | Card and sheet elevation background |
+| **Color** | `color-primary-aorus` | `#FF5500` | Brand primary accent & active states |
+| **Color** | `color-accent-cyan` | `#00D2FF` | Interactive secondary buttons and indicators |
+| **Color** | `color-status-success` | `#00E676` | Verified badges and completed orders |
+| **Color** | `color-status-warning` | `#FFAB00` | Pending payments and shipping alerts |
+| **Color** | `color-status-danger` | `#FF3366` | Canceled orders and destructive actions |
+| **Typography** | `font-family-primary` | `'Inter', 'Rajdhani', sans-serif` | Clean, tech-forward geometric type scale |
+| **Elevation** | `radius-card` | `12px` | Subtle curved corner styling for containers |
+
+```css
+:root {
+  --color-bg-canvas: #0A0E17;
+  --color-bg-surface: #141B26;
+  --color-primary-aorus: #FF5500;
+  --color-accent-cyan: #00D2FF;
+  --color-accent-purple: #7928CA;
+  --color-status-success: #00E676;
+  --color-status-warning: #FFAB00;
+  --color-status-danger: #FF3366;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+}
+```
 
 ## Design Solution & Key Features
 
-The design solution resolves technical clutter by implementing a dark obsidian aesthetic illuminated by neon cyan, electric violet, and Aorus brand amber accents. This palette elevates product imagery while maintaining legibility and functional clarity across all e-commerce touchpoints.
+The finalized user experience resolves critical hardware procurement pain points through purposeful interface interventions:
 
-- **Branded Discovery Hub**: Integrates instant wallet balance metrics, voucher redemption shortcuts, and visual hardware category cards (Motherboards, GPUs, RAM, PSUs, Coolers, Monitors) for rapid top-level navigation.
-- **Granular Hardware Specification Tables**: Presents mission-critical motherboard architecture details (socket type, chipset, memory DIMM sockets, maximum frequencies, and display outputs) in an organized, scannable key-value format.
-- **Verified Official Store Profile**: Embeds authenticated store credibility indicators, response times, location badges, and customer ratings directly above specifications to assure authenticity for high-ticket items.
-- **Dynamic Shopping Cart Breakdown**: Automates order calculation with visual voucher tags, transparent platform fees, free shipping exemptions, and prominent single-tap checkout CTAs.
-- **Multi-State Transaction History**: Organizes past and active orders chronologically with color-coded status badges (`Waiting for payment`, `Done`, `Canceled`) and contextual post-purchase actions such as leaving reviews or canceling pending orders.
+- **Spec-First Product Detail Page**: Standardizes hardware parameters into clear tabular matrices, allowing builders to confirm motherboard socket compatibility, chipset types, and DDR5 frequency limits at a glance.
+- **Streamlined Hardware Taxonomy**: Employs graphical category tiles on the home screen to let users instantly filter between Motherboards, Graphics Cards, RAM, PSUs, AIO Coolers, and Monitors.
+- **Dedicated Hardware Wishlist**: Enables gamers to save prospective components, compare pricing fluctuations, and batch-add parts directly into the shopping cart.
+- **Transparent Cart Breakdown**: Eliminates hidden checkout surprises by detailing item subtotals, zero-cost shipping vouchers, and transparent platform administration fees.
+- **Context-Aware Order Timeline**: Provides chronological order tracking with color-coded tags indicating real-time fulfillment states (`Waiting for payment`, `Done`, `Canceled`).
 
 ## Design Workflow
 
-The project followed an iterative design process prioritizing technical readability and mobile e-commerce ergonomics:
+The interface was developed through an iterative design lifecycle focused on component modularity and responsive usability:
 
-1. **Hardware Domain & Competitive Analysis**: Examined existing gaming hardware retail platforms and desktop catalog configurations to identify mobile layout deficiencies and missing technical metadata.
-2. **Information Architecture & Journey Mapping**: Structured the five primary application modules (Home Discovery, Wishlist Catalog, Shopping Cart, Order Records, and Account Settings) around a persistent bottom navigation bar.
-3. **Design System & Component Styling**: Established design tokens consisting of dark background foundations (`#0B0E14`), luminous neon accents, standard 8pt spacing intervals, and reusable component cards.
-4. **High-Fidelity Screen Synthesis**: Crafted pixel-perfect mobile artboards in Figma, balancing high-contrast product renders against structured data layouts and interactive CTA buttons.
-5. **Asset Optimization & Export**: Rendered high-resolution interface presentations and converted display assets into high-performance WebP formats for documentation and showcase integration.
+1. **Requirements & Domain Analysis**: Audited enthusiast PC building workflows, hardware classification standards, and mobile e-commerce conversion patterns.
+2. **Information Architecture & Wireframing**: Formulated the 5-tab navigation model and established wireframe layouts for spec-heavy product cards.
+3. **Design System & Visual Language**: Crafted dark-mode color tokens, typography scales, neon cyber accents, and component states in Figma.
+4. **High-Fidelity Mockup Production**: Built pixel-perfect screen compositions incorporating official Aorus product assets and realistic hardware data.
+5. **Usability Review & Visual Refinement**: Adjusted button touch targets, optimized contrast ratios across dark backgrounds, and streamlined checkout step indicators.
 
 ## Design Tools & Tech Stack
 
 | Category | Tool / Technology | Purpose |
-| --- | --- | --- |
-| Primary Design Software | Figma | Wireframing, high-fidelity UI mockup creation, and component architecture |
-| Brainstorming & User Flow | FigJam | User journey mapping and information architecture planning |
-| Vector Graphics & Assets | Adobe Illustrator | Brand iconography, custom vector assets, and typography preparation |
-| Documentation Asset Format | WebP | High-efficiency lossless and lossy visual documentation rendering |
+|---|---|---|
+| **UI/UX Design Application** | Figma | Component architecture, responsive layouts, and screen mockups |
+| **Brainstorming & Flow Mapping** | FigJam | User flow visualization and sitemap information architecture |
+| **Asset Editing & Optimization** | Adobe Photoshop | Hardware asset masking, background texture generation, and image post-processing |
+| **Vector Graphics & Icons** | Adobe Illustrator | Vector iconography and brand badge rendering |
+| **Asset Delivery Format** | WebP | High-efficiency lossless screen compression for web documentation |
 
 ## Design Preview
 
-The visual design system utilizes a dark-mode foundation to accentuate RGB-lit PC hardware renders and high-contrast typography, ensuring an engaging browsing experience across all screens.
+### 1. Main Navigation, Catalog Grid & Hardware Specification Details
+![Main Navigation, Catalog Grid & Hardware Specification Details](screenshot/image1.webp)
+The primary discovery interface combines an atmospheric neon-cyber home hub featuring quick-access hardware categories with a filterable motherboard catalog grid and an in-depth product detail page. The detail view organizes essential hardware criteria—including socket format, chipset generation, DDR5 memory frequency, and official store verification—into a scannable technical datasheet.
 
-![Catalog and Product Detail Screen](screenshot/image1.webp)
-
-*Hardware Category Catalog and Comprehensive Technical Product Detail Views*
-
-![Wishlist, Cart, and Order History Screen](screenshot/image2.webp)
-
-*Saved Hardware Wishlist, Dynamic Shopping Cart Summary, and Chronological Transaction Tracking Views*
+### 2. Wishlist Management, Shopping Cart & Order Tracking Interface
+![Wishlist Management, Shopping Cart & Order Tracking Interface](screenshot/image2.webp)
+The fulfillment experience features dual-tab wishlist and recent item management for side-by-side component evaluation, a transparent shopping cart breakdown with coupon deductions and platform fees, and a chronological order history dashboard equipped with color-coded status pills and quick-action review buttons.
 
 ## Contributing
 
-Contributions to this design project repository are welcome. To propose design improvements or submit assets:
+Contributions, feedback, and design improvements are welcome:
 
 1. Fork the repository.
-2. Create a branch for the change (`git checkout -b feature/design-enhancement`).
-3. Make the changes.
-4. Check that relevant design files, assets, and documentation are organized correctly.
-5. Commit and push the branch (`git commit -m "Add design enhancement"`).
-6. Open a pull request with a clear explanation and relevant previews when applicable.
+2. Create a branch for your proposed design enhancements (`git checkout -b feature/design-improvement`).
+3. Make your changes and ensure visual assets conform to standard resolutions and naming rules.
+4. Check that relevant design files, assets, and documentation are organized correctly in `screenshot/`.
+5. Commit and push your branch (`git commit -m "feat: enhance mobile checkout flow"`).
+6. Open a pull request with a clear explanation of your design decisions and attach relevant WebP previews.
 
 ## License
 
