@@ -19,10 +19,7 @@
   "accentColor": "rose",
   "repoUrl": "https://github.com/weztcy/Aorus-Gaming-Shop-Mobile-App-UIUX-Design",
   "license": "MIT License",
-  "imageUrl": "/images/projects/aorus_gaming_shop_mobile/banner.webp",
-  "images": [
-    "/images/projects/aorus_gaming_shop_mobile/banner.webp"
-  ],
+  "banner": "/images/projects/aorus_gaming_shop_mobile/banner.webp",
   "summary": "Mobile e-commerce UX design for Aorus PC hardware, featuring streamlined component discovery, technical spec sheets, and seamless order tracking.",
   "projectDescription": "A mobile commerce UI/UX concept tailored for PC gaming enthusiasts and builders. The design provides immersive dark-mode visual merchandising, transparent technical specification matrices, seamless hardware compatibility verification, and end-to-end shopping cart checkout workflows.",
   "architectureSummary": "5-tab mobile shopping architecture linking category discovery, spec comparison, cart checkout, and live order tracking.",
